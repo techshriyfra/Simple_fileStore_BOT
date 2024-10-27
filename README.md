@@ -37,7 +37,7 @@
 
 
 
-<details align="center">
+<details>
 <summary><h3>
 - <b> ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs </b>
 </h3></summary>
