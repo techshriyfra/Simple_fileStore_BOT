@@ -24,7 +24,7 @@
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
 
-## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+## Commands
 
 ```
 /start - start the bot or get posts
@@ -37,13 +37,33 @@
 
 
 
-<details>
+<details align="center">
 <summary><h3>
 - <b> ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs </b>
 </h3></summary>
 <a href="https://youtube.com/@LazyDeveloperr" align="center">
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147" align="center">
 </a>
+
+## Copy vars for RAW EDIT(koyeb)
+```
+ADMINS=5965340120
+API_HASH=68098tyghvbnmmklji0a53ae86a661a12
+APP_ID=109856786
+CHANNEL_ID=-1001895607162
+DATABASE_NAME=Cluster0
+DATABASE_URL=mongodb+srv://lazyxxx:lazyxx@cluster0.v5uug.mongodb.net/?retryWrites=true&w=majority
+FILE_AUTO_DELETE=600
+FORCE_SUB_CHANNEL=-1001855814121
+FORCE_SUB_CHANNEL2=-1002015215461
+LOG_CHANNEL=-1001895607162
+OWNER=LazyDeveloperr
+OWNER_ID=5965340120
+PORT=8080
+TG_BOT_TOKEN=619876536:AAHkjhgcfvbnklidcvbnHhLqNmewwRy5xIw4
+
+```
+
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
