@@ -1,16 +1,11 @@
 from bot import Bot
-import pyrogram.utils
-
-pyrogram.utils.MIN_CHANNEL_ID = -1002351859964
-
-bot = Bot()
+import asyncio
 
 async def main():
-    await bot.start()  # Start bot without use_qr
-    print("Bot is running...")
+    bot = Bot()
+    await bot.start()
+    # Keep the bot running until manually stopped
+    await asyncio.Event().wait()
 
-    await idle()  # ✅ Correct method to keep bot running
-
-    await bot.stop()  # Stop the bot when exiting
-
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
