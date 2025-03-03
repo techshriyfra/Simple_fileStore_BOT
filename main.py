@@ -1,9 +1,7 @@
 from bot import Bot
 import pyrogram.utils
-import asyncio
-from pyrogram import idle  # ✅ Correct way to use idle()
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002351859964
 
 bot = Bot()
 
